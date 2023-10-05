@@ -1,0 +1,24 @@
+{
+  "name": "Red-Dragon",
+  "description": "Red Dragon MD version code 13",
+  "repository": "https://github.com/xcodejet/reddragon13",
+  "logo": "https://i.ibb.co/N36LkTT/accont-tag-bot.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "env": {
+     "RED_DRAGON_ACCOUNT_ID": {
+     "description": "http://www.reddragon.uf.uk.eu.org/",
+     "required": true
+       }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
