@@ -97,14 +97,7 @@ const autoReply = (msg) => {
 const autoReply2 = (msg) => {
     let R = ''
     if(msg.match(/hi|හායි|hey|hello|halo|helow|හලෝ/gi)){
-        R = "🤓Hey, I am RedDragon👽"
-    }
-    return R
-}
-const autoReply3 = (msg) => {
-    let R = ''
-    if(msg.match(/hi|හායි|hey|hello|halo|helow|හලෝ/gi)){
-        R = "sendAudio:"
+        R = "sendAudio:110"
     }
     if(msg.match(/alive|\/start/gi)){
         R = "sendAudio:110"
@@ -130,6 +123,10 @@ const autoReply3 = (msg) => {
     if(msg.match(/❤️/gi)){
         R = "sendAudio:117"
     }
+    return R
+}
+const autoReply3 = (msg) => {
+    let R = ''
     return R
 }
 module.exports = {
