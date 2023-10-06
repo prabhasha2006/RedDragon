@@ -4,8 +4,14 @@
 
 LATEST VERSION (2023-10-05) ([New vesion]) [13.0]
 
-OLD VERSION (2022-08-20)
+Special
+>If you put {BotOff} / {BotLock} or {NoBot} into your group name,
+>
+>Red Dragon bot isn't working for that group
+>
 
+
+## 🪀 [JOIN GROUP](https://chat.whatsapp.com/FORwZVruL31L2BaUCWT1Lp)
 ## 🔮 [WEBSITE APPLICATION](http://www.reddragon.uf.uk.eu.org/)
 ## 🔮 [CREATE ACCOUNT](http://www.reddragon.uf.uk.eu.org/signup)
 ## 🔮 [LOGIN](http://www.reddragon.uf.uk.eu.org/login)
