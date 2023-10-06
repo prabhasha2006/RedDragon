@@ -94,7 +94,47 @@ const autoReply = (msg) => {
     }
     return R
 }
+const autoReply2 = (msg) => {
+    let R = ''
+    if(msg.match(/hi|හායි|hey|hello|halo|helow|හලෝ/gi)){
+        R = "🤓Hey, I am RedDragon👽"
+    }
+    return R
+}
+const autoReply3 = (msg) => {
+    let R = ''
+    if(msg.match(/hi|හායි|hey|hello|halo|helow|හලෝ/gi)){
+        R = "sendAudio:"
+    }
+    if(msg.match(/alive|\/start/gi)){
+        R = "sendAudio:110"
+    }
+    if(msg.match(/😌/gi)){
+        R = "sendAudio:111"
+    }
+    if(msg.match(/🤣|😂😂/gi)){
+        R = "sendAudio:112"
+    }
+    if(msg.match(/😒/gi)){
+        R = "sendAudio:113"
+    }
+    if(msg.match(/balla|bll|pko/gi)){
+        R = "sendAudio:114"
+    }
+    if(msg.match(/aaw|halo|manika|lamayo|😘|😍/gi)){
+        R = "sendAudio:115"
+    }
+    if(msg.match(/palayan|plyn|පල/gi)){
+        R = "sendAudio:116"
+    }
+    if(msg.match(/❤️/gi)){
+        R = "sendAudio:117"
+    }
+    return R
+}
 module.exports = {
     autoReply,
+    autoReply2,
+    autoReply3,
     copyright:"Kumuthu Prabhasha"
 }
