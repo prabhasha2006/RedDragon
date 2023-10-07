@@ -31,7 +31,7 @@ async function fbdl(Link) {
                 sd: Normal,
                 audio: AU
 			}
-			console.log(result)
+			return result
 		}).catch(reject)
 	})
 }
