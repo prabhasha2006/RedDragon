@@ -26,12 +26,12 @@ async function fbdl(Link) {
 			let AU = $("body > div.page-content > div > div > div.col-lg-10.col-md-10.col-centered > div > div:nth-child(3) > div > div.col-md-4.btns-download > p:nth-child(3) > a").attr("href")
             let tt = $("body > div.page-content > div > div > div.col-lg-10.col-md-10.col-centered > div > div:nth-child(3) > div > div.col-md-5.no-padd > div > h5 > a").text()
 			const result = {
-                title: tt,
-                hd: hd,
-                sd: Normal,
-                audio: AU
+				title: tt,
+				hd: hd,
+				sd: Normal,
+				audio: AU
 			}
-			return result
+			resolve(result)
 		}).catch(reject)
 	})
 }
