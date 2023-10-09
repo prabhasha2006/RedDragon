@@ -99,9 +99,6 @@ const autoReply2 = (msg) => {
     if(msg.match(/hi|හායි|hey|hello|halo|helow|හලෝ/gi)){
         R = "sendAudio:110"
     }
-    if(msg.match(/alive|\/start/gi)){
-        R = "sendAudio:110"
-    }
     if(msg.match(/😌/gi)){
         R = "sendAudio:111"
     }
@@ -114,14 +111,11 @@ const autoReply2 = (msg) => {
     if(msg.match(/balla|bll|pko/gi)){
         R = "sendAudio:114"
     }
-    if(msg.match(/aaw|halo|manika|lamayo|😘|😍/gi)){
+    if(msg.match(/aaw|halo|manika|lamayo|😘|😍|❤️|love|adare/gi)){
         R = "sendAudio:115"
     }
     if(msg.match(/palayan|plyn|පල/gi)){
         R = "sendAudio:116"
-    }
-    if(msg.match(/❤️/gi)){
-        R = "sendAudio:117"
     }
     return R
 }
