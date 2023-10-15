@@ -69,7 +69,7 @@ const autoReply = (msg) => {
         R = "Telegram Group එකට එන්න😌\nt.me/+RMAUq3inzkphM2U9"
     }
     if(msg.match(/whatsapp|වට්සැප්|phon|‌පෝන්/gi)){
-        R = "sendSricker:phonehate"
+        R = "sendSticker:phonehate"
     }
     if(msg.match(/hehe|he he|හේහේ/gi)){
         R = "sendSticker:hehe"
